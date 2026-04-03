@@ -57,11 +57,7 @@
 
 body:has(.folder:hover) .folder {
 	opacity: 1;
-	filter: grayscale(100%) blur(4px);
-}
-
-body:has(.folder:hover) .folder h2 {
-	color: aqua !important;
+	filter: grayscale(100%) blur(3.75px);
 }
 
 body:has(.folder:hover) .folder:hover {
