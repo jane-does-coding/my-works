@@ -18,3 +18,33 @@
 .written-scribble {
 	font-family: "Writtenscribble", sans-serif;
 }
+
+@font-face {
+	font-family: "Marketing";
+	src: url("/fonts/marketing-disparities-font/Marketing.ttf") format("truetype");
+	font-style: normal;
+}
+
+.marketing {
+	font-family: "Marketing", sans-serif;
+}
+
+@font-face {
+	font-family: "Monas";
+	src: url("/fonts/monas-font/Monas.ttf") format("truetype");
+	font-style: normal;
+}
+
+.monas {
+	font-family: "Monas", sans-serif;
+}
+
+@font-face {
+	font-family: "Fusskia";
+	src: url("/fonts/fusskia-font/Fusskia.ttf") format("truetype");
+	font-style: normal;
+}
+
+.fusskia {
+	font-family: "Fusskia", sans-serif;
+}

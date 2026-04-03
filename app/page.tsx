@@ -3,96 +3,135 @@ import Image from "next/image";
 export default function Home() {
 	return (
 		<div className="h-screen w-full ">
-			<div className="flex flex-col h-screen w-full">
-				<h2 className="h-[15vh] text-[8vh] px-[5vw] ">My Work</h2>
-				<div className="fixed bottom-[-10vh] hover:bottom-[-8vh] transition-all ease-in-out duration-200 left-0 bg-green-200/0">
-					<p className="absolute top-[2.5vh] jnae text-[3vh] left-[1.75vw] z-10">
+			<div className="flex flex-col h-screen w-full pt-[1vh]">
+				<div className="flex px-[2vw] w-full items-center justify-between">
+					<a href="/" className="fusskia text-[2.75vh]">
+						Home
+					</a>
+					<a href="/" className="fusskia text-[2.75vh]">
+						Works
+					</a>
+					<a href="/" className="fusskia text-[2.75vh]">
+						About
+					</a>
+					<a href="/" className="fusskia text-[2.75vh]">
+						Contact
+					</a>
+				</div>
+				<div className="flex px-[2vw] w-full items-center justify-between mt-[2vh]">
+					<h2 className="text-[8vh] monas w-1/2">Works</h2>
+					<h2 className="text-[8vh] monas w-1/2 opacity-25">Archieve</h2>
+				</div>
+				<div className="fixed bottom-[-10vh] hover:bottom-[-9vh] transition-all ease-in-out duration-200 left-0 bg-green-200/0 group">
+					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
 						01
 					</p>
-					<h1 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10">
-						Section Title
+					<h1 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10 fusskia">
+						My Websites
 					</h1>
 
 					<img
 						src="/imgs/folder-light-yellow.png"
-						className="w-[50vw] h-[60vh] drop-shadow-2xl drop-shadow-neutral-700/20"
+						className="w-[50vw] h-[60vh] drop-shadow-2xl drop-shadow-neutral-700/20 z-9 relative"
 						alt=""
 					/>
+
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-10vh] -rotate-8 left-[9vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-6vh] -rotate-2 left-[20.25vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[20vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-8vh] rotate-9 right-[5vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
 				</div>
-				<div className="fixed bottom-[-10vh] hover:bottom-[-8vh] transition-all ease-in-out duration-200 right-0 bg-green-200/0">
-					<p className="absolute top-[2.5vh] jnae text-[3vh] left-[1.75vw] z-10">
+				<div className="fixed bottom-[-10vh] hover:bottom-[-9vh] transition-all ease-in-out duration-200 right-0 bg-green-200/0 group">
+					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
 						02
 					</p>
-					<h1 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10">
-						Section Title
+					<h1 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10 fusskia">
+						Hackathon Wins
 					</h1>
 
 					<img
 						src="/imgs/folder-light.png"
-						className="w-[50vw] h-[60vh] drop-shadow-2xl drop-shadow-neutral-700/20"
+						className="w-[50vw] h-[60vh] drop-shadow-2xl drop-shadow-neutral-700/20 z-9 relative"
 						alt=""
 					/>
+
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-10vh] -rotate-8 left-[9vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-6vh] -rotate-2 left-[20.25vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[20vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-8vh] rotate-9 right-[5vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
 				</div>
-				<div className="fixed bottom-[-25vh] hover:bottom-[-23vh] transition-all ease-in-out duration-200 left-0 bg-green-200/0">
-					<p className="absolute top-[2.5vh] jnae text-[3vh] left-[1.75vw] z-10">
+				<div className="fixed bottom-[-25vh] hover:bottom-[-24vh] transition-all ease-in-out duration-200 left-0 bg-green-200/0 group">
+					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
 						03
 					</p>
-					<h1 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10">
-						Section Title
+					<h1 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10 fusskia">
+						Graphic Designs
 					</h1>
 
 					<img
 						src="/imgs/folder-light.png"
-						className="w-[40vw] h-[60vh] drop-shadow-2xl drop-shadow-neutral-700/20"
+						className="w-[40vw] h-[60vh] drop-shadow-2xl drop-shadow-neutral-700/20 relative z-9"
 						alt=""
 					/>
+
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-10vh] -rotate-8 left-[9vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-6vh] -rotate-2 left-[20.25vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[20vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-8vh] rotate-9 right-[5vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
 				</div>
-				<div className="fixed bottom-[-25vh] hover:bottom-[-23vh] transition-all ease-in-out duration-200 right-0 bg-green-200/0">
-					<p className="absolute top-[2.5vh] jnae text-[3vh] left-[1.75vw] z-10">
+				<div className="fixed bottom-[-25vh] hover:bottom-[-24vh] transition-all ease-in-out duration-200 right-0 bg-green-200/0 group">
+					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
 						04
 					</p>
-					<h1 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10">
-						Section Title
+					<h1 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10 fusskia">
+						Events Organized
 					</h1>
 
 					<img
 						src="/imgs/folder-gray.png"
-						className="w-[60vw] h-[60vh] drop-shadow-2xl drop-shadow-neutral-700/20"
+						className="w-[60vw] h-[60vh] drop-shadow-2xl drop-shadow-neutral-700/20 relative z-9"
 						alt=""
 					/>
+
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-10vh] -rotate-8 left-[9vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-6vh] -rotate-2 left-[20.25vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[20vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-8vh] rotate-9 right-[5vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
 				</div>
-				<div className="fixed bottom-[-40vh] hover:bottom-[-38vh] transition-all ease-in-out duration-200 left-0 bg-green-200/0">
-					<p className="absolute top-[2.5vh] jnae text-[3vh] left-[1.75vw] z-10">
+				<div className="fixed bottom-[-40vh] hover:bottom-[-39vh] transition-all ease-in-out duration-200 left-0 bg-green-200/0 group">
+					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
 						05
 					</p>
-					<h1 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10">
-						Section Title
+					<h1 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10 fusskia">
+						My Fonts
 					</h1>
 
 					<img
 						src="/imgs/folder-light-yellow.png"
-						className="w-[50vw] h-[60vh] drop-shadow-2xl drop-shadow-neutral-700/20"
+						className="w-[50vw] h-[60vh] drop-shadow-2xl drop-shadow-neutral-700/20 relative z-9"
 						alt=""
 					/>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-10vh] -rotate-8 left-[9vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-6vh] -rotate-2 left-[20.25vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[20vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-8vh] rotate-9 right-[5vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
 				</div>
-				<div className="fixed bottom-[-40vh] hover:bottom-[-38vh] transition-all ease-in-out duration-200 right-0 bg-green-200/0">
-					<p className="absolute top-[2.5vh] jnae text-[3vh] left-[1.75vw] z-10">
+				<div className="fixed bottom-[-40vh] hover:bottom-[-39vh] transition-all ease-in-out duration-200 right-0 bg-green-200/0 group">
+					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
 						06
 					</p>
-					<h1 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10">
-						Section Title
+					<h1 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10 fusskia">
+						UI/UX Designs
 					</h1>
 
 					<img
 						src="/imgs/folder-light.png"
-						className="w-[50vw] h-[60vh] drop-shadow-2xl drop-shadow-neutral-700/20"
+						className="w-[50vw] h-[60vh] drop-shadow-2xl drop-shadow-neutral-700/20 relative z-9"
 						alt=""
 					/>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-10vh] -rotate-8 left-[9vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-6vh] -rotate-2 left-[20.25vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[20vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-8vh] rotate-9 right-[5vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
 				</div>
 			</div>
 			{/* 	<h2 className="text-[5vh] mb-[2vh]">Fonts:</h2>
-			<p className="jnae text-[7.5vh] leading-[7.5vh]">Jnae Font</p>
-			<p className="jnae text-[5vh] leading-[5vh] tracking-[-0.25vh]">
+			<p className="fusskia text-[7.5vh] leading-[7.5vh]">fusskia Font</p>
+			<p className="fusskia text-[5vh] leading-[5vh] tracking-[-0.25vh]">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque facilis
 				quisquam possimus magnam ex alias perspiciatis ut sunt numquam
 				laudantium odit, veniam, explicabo obcaecati ad, est pariatur sint
