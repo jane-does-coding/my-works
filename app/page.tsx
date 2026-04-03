@@ -36,9 +36,9 @@ export default function Home() {
 						alt=""
 					/>
 
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-10vh] -rotate-8 left-[9vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-6vh] -rotate-2 left-[20.25vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[20vh]"></div>
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-8vh] rotate-9 right-[5vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[8vh] group-hover:top-[-13vh] -rotate-8 left-[6vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[15vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[8vh] group-hover:top-[-9vh] -rotate-2 left-[17vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[15vw] h-[20vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[8vh] group-hover:top-[-11vh] rotate-9 right-[5vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[16vw] h-[25vh]"></div>
 				</div>
 				<div className="fixed bottom-[-10vh] hover:bottom-[-9vh] transition-all ease-in-out duration-200 right-0 bg-green-200/0 group">
 					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
@@ -54,9 +54,9 @@ export default function Home() {
 						alt=""
 					/>
 
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-10vh] -rotate-8 left-[9vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-6vh] -rotate-2 left-[20.25vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[20vh]"></div>
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-8vh] rotate-9 right-[5vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-11vh] -rotate-8 left-[8vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[14vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-9vh] rotate-1 left-[20.25vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[20vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-14vh] rotate-9 right-[5vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
 				</div>
 				<div className="fixed bottom-[-25vh] hover:bottom-[-24vh] transition-all ease-in-out duration-200 left-0 bg-green-200/0 group">
 					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
@@ -72,9 +72,9 @@ export default function Home() {
 						alt=""
 					/>
 
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-10vh] -rotate-8 left-[9vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-6vh] -rotate-2 left-[20.25vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[20vh]"></div>
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-8vh] rotate-9 right-[5vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-10vh] -rotate-8 left-[4vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-15vh] -rotate-1 left-[15vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-9vh] rotate-9 left-[25vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
 				</div>
 				<div className="fixed bottom-[-25vh] hover:bottom-[-24vh] transition-all ease-in-out duration-200 right-0 bg-green-200/0 group">
 					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
@@ -90,9 +90,9 @@ export default function Home() {
 						alt=""
 					/>
 
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-10vh] -rotate-8 left-[9vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-6vh] -rotate-2 left-[20.25vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[20vh]"></div>
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-8vh] rotate-9 right-[5vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[8vh] group-hover:top-[-13vh] -rotate-12 left-[9vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[15vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[8vh] group-hover:top-[-10vh] -rotate-2 left-[23vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[17.5vw] h-[20vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[8vh] group-hover:top-[-11vh] rotate-9 left-[40vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[15vw] h-[25vh]"></div>
 				</div>
 				<div className="fixed bottom-[-40vh] hover:bottom-[-39vh] transition-all ease-in-out duration-200 left-0 bg-green-200/0 group">
 					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
@@ -107,9 +107,8 @@ export default function Home() {
 						className="w-[50vw] h-[60vh] drop-shadow-2xl drop-shadow-neutral-700/20 relative z-9"
 						alt=""
 					/>
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-10vh] -rotate-8 left-[9vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-6vh] -rotate-2 left-[20.25vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[20vh]"></div>
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-8vh] rotate-9 right-[5vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-13vh] -rotate-8 left-[6vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[20vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-9vh] rotate-4 left-[24vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[20vw] h-[20vh]"></div>
 				</div>
 				<div className="fixed bottom-[-40vh] hover:bottom-[-39vh] transition-all ease-in-out duration-200 right-0 bg-green-200/0 group">
 					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
@@ -124,34 +123,11 @@ export default function Home() {
 						className="w-[50vw] h-[60vh] drop-shadow-2xl drop-shadow-neutral-700/20 relative z-9"
 						alt=""
 					/>
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-10vh] -rotate-8 left-[9vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-6vh] -rotate-2 left-[20.25vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[20vh]"></div>
-					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-8vh] rotate-9 right-[5vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[12.5vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-14vh] -rotate-8 left-[7vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[15vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-10vh] left-[17vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[17vw] h-[20vh]"></div>
+					<div className="absolute transition-all duration-300 ease-in-out top-[7vh] group-hover:top-[-12vh] rotate-9 left-[33vw] bg-green-300 rounded-[0.25vh] z-1 border-2 w-[13.5vw] h-[25vh]"></div>
 				</div>
 			</div>
-			{/* 	<h2 className="text-[5vh] mb-[2vh]">Fonts:</h2>
-			<p className="fusskia text-[7.5vh] leading-[7.5vh]">fusskia Font</p>
-			<p className="fusskia text-[5vh] leading-[5vh] tracking-[-0.25vh]">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque facilis
-				quisquam possimus magnam ex alias perspiciatis ut sunt numquam
-				laudantium odit, veniam, explicabo obcaecati ad, est pariatur sint
-				consequuntur quia dolore excepturi accusantium a saepe! Vel ex quo
-				perspiciatis hic numquam nostrum. Ullam dolorem laborum hic quis maxime
-				repellat eum.
-			</p>
-			<br />
-			<br />
-			<p className="written-scribble font-bold text-[7.5vh] leading-[7.5vh]">
-				Written Scribble Font
-			</p>
-			<p className="written-scribble font-semibold text-[5vh] leading-[5vh] tracking-[-0.1px]">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque facilis
-				quisquam possimus magnam ex alias perspiciatis ut sunt numquam
-				laudantium odit, veniam, explicabo obcaecati ad, est pariatur sint
-				consequuntur quia dolore excepturi accusantium a saepe! Vel ex quo
-				perspiciatis hic numquam nostrum. Ullam dolorem laborum hic quis maxime
-				repellat eum.
-			</p> */}
 		</div>
 	);
 }
