@@ -48,3 +48,25 @@
 .fusskia {
 	font-family: "Fusskia", sans-serif;
 }
+
+.folder {
+	opacity: 1;
+	filter: grayscale(0%);
+	transition: all 200ms ease-in-out;
+}
+
+body:has(.folder:hover) .folder {
+	opacity: 1;
+	filter: grayscale(100%) blur(4px);
+}
+
+body:has(.folder:hover) .folder h2 {
+	color: aqua !important;
+}
+
+body:has(.folder:hover) .folder:hover {
+	opacity: 1;
+	filter: grayscale(0%);
+}
+
+/* filter: grayscale(100%); */
