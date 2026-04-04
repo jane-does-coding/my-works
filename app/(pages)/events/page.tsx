@@ -11,11 +11,11 @@ const EventsPage = () => {
 				</div>
 				<div className="w-[77.5%] fixed top-[7.5vh] left-[22.5vw] h-fit border-b-4">
 					<img
-						src="/imgs/folder-dark.png"
+						src="/imgs/folder-dark-gray.png"
 						className="w-[50vw] absolute top-0 left-0"
 						alt=""
 					/>
-					<div className="bg-[#5F5F5F] rounded-[1vh] rounded-r-none absolute top-[5vh] h-full w-full"></div>
+					<div className="bg-[#474747] rounded-[1vh] rounded-r-none absolute top-[5vh] h-full w-full"></div>
 					<p className="relative fusskia text-[2vh] left-[1.75vw] z-10 mt-[3vh] w-fit text-white">
 						04
 					</p>
