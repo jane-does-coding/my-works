@@ -3,11 +3,13 @@ import React from "react";
 const FontsPage = () => {
 	return (
 		<div>
-			<div className="flex pl-[2vw] mt-[2vh] overflow-x-hidden h-screen w-[100vw]">
-				<div className="w-[22.5%] h-fit">
-					<h2 className="fusskia text-[2.5vh] fixed">{"<-"} See all works.</h2>
+			<div className="flex pl-[2vw] pt-[2vh] overflow-x-hidden h-screen overflow-y-hidden w-screen">
+				<div className="w-[22.5%] h-fit fixed top-[7.5vh] left-[2vw]">
+					<a href="/" className="fusskia text-[2.5vh]">
+						{"<-"} See all works.
+					</a>
 				</div>
-				<div className="w-[77.5%] relative h-fit">
+				<div className="w-[77.5%] fixed top-[7.5vh] left-[22.5vw] h-fit border-b-4">
 					<img
 						src="/imgs/folder-light.png"
 						className="w-[50vw] absolute top-0 left-0"
@@ -24,40 +26,68 @@ const FontsPage = () => {
 						<p className="w-full text-[1.75vh]">Title</p>
 						<p className="w-full text-[1.75vh]">Font</p>
 					</div>
-					<div className="flex flex-col z-10 relative border-t-2 border-dotted border-neutral-500">
-						<div className="flex">
+					<div className="flex flex-col z-10 relative border-t-2 border-dotted border-neutral-500 min-h-[30vh] max-h-[65vh] overflow-y-auto border-b-2">
+						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-600 flex-shrink-0">
 							<div className="w-full pl-[2vw] pt-[2vh]">
 								<h2 className="fusskia text-[3vh]">Flowy Font</h2>
 								<h2 className=" text-[1.75vh]">April, 2025</h2>
 							</div>
-							<div className="bg-white w-full h-full border-l-2 border-dotted border-neutral-500 p-[2vh]">
-								<h2 className="text-[10vh] leading-[10vh] jnae">
+							<div className="bg-white w-full h-full border-l-2 border-dotted border-neutral-500 p-[2vh] py-[1vh]">
+								<h2 className="text-[9vh] leading-[8vh] jnae">
 									Aa Bb Cc Dd Ee
 								</h2>
-								<p className="text-[3vh] leading-[3vh] jnae">
+								<h2 className="text-[9vh] leading-[8vh] jnae">
+									Gg Hh Ii Jj Kk
+								</h2>
+								<p className="text-[3.25vh] leading-[3.25vh] jnae mt-[1.5vh]">
 									Lorem ipsum dolor sit amet consectetur adipisicing elit.
 									Aspernatur, praesentium! Laboriosam, error accusantium?
 									Aspernatur quibusdam ipsa dicta, possimus rem officia? Dolore
 									dolores doloribus vitae illum quos excepturi quam suscipit?
-									Sapiente.
+									Sapiente. Lorem ipsum dolor sit amet.
 								</p>
 							</div>
 						</div>
-						<div className="flex border-y-2 border-dotted border-neutral-500">
+
+						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-600 flex-shrink-0 border-y-2 border-neutral-500 border-dotted">
 							<div className="w-full pl-[2vw] pt-[2vh]">
 								<h2 className="fusskia text-[3vh]">Written Scribble Font</h2>
 								<h2 className=" text-[1.75vh]">April, 2025</h2>
 							</div>
-							<div className="bg-white w-full h-full border-l-2 border-dotted border-neutral-500 p-[2vh]">
-								<h2 className="text-[10vh] leading-[10vh] written-scribble">
+							<div className="bg-white w-full h-full border-l-2 border-dotted border-neutral-500 p-[2vh] py-[1vh]">
+								<h2 className="text-[9vh] leading-[8vh] written-scribble">
 									Aa Bb Cc Dd Ee
 								</h2>
-								<p className="text-[3vh] leading-[3vh] written-scribble">
+								<h2 className="text-[9vh] leading-[8vh] written-scribble">
+									Gg Hh Ii Jj Kk
+								</h2>
+								<p className="text-[3.25vh] leading-[3.25vh] written-scribble mt-[1.5vh]">
 									Lorem ipsum dolor sit amet consectetur adipisicing elit.
 									Aspernatur, praesentium! Laboriosam, error accusantium?
 									Aspernatur quibusdam ipsa dicta, possimus rem officia? Dolore
 									dolores doloribus vitae illum quos excepturi quam suscipit?
-									Sapiente.
+									Sapiente. Lorem ipsum dolor sit amet.
+								</p>
+							</div>
+						</div>
+						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-600 flex-shrink-0 border-dotted">
+							<div className="w-full pl-[2vw] pt-[2vh]">
+								<h2 className="fusskia text-[3vh]">Written Scribble Font</h2>
+								<h2 className=" text-[1.75vh]">April, 2025</h2>
+							</div>
+							<div className="bg-white w-full h-full border-l-2 border-dotted border-neutral-500 p-[2vh] py-[1vh]">
+								<h2 className="text-[9vh] leading-[8vh] written-scribble">
+									Aa Bb Cc Dd Ee
+								</h2>
+								<h2 className="text-[9vh] leading-[8vh] written-scribble">
+									Gg Hh Ii Jj Kk
+								</h2>
+								<p className="text-[3.25vh] leading-[3.25vh] written-scribble mt-[1.5vh]">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Aspernatur, praesentium! Laboriosam, error accusantium?
+									Aspernatur quibusdam ipsa dicta, possimus rem officia? Dolore
+									dolores doloribus vitae illum quos excepturi quam suscipit?
+									Sapiente. Lorem ipsum dolor sit amet.
 								</p>
 							</div>
 						</div>
