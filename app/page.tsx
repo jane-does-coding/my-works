@@ -1,4 +1,5 @@
-import Image from "next/image";
+"use client";
+import { motion } from "framer-motion";
 
 export default function Home() {
 	return (
@@ -10,6 +11,7 @@ export default function Home() {
 				</div>
 
 				{/* Folder 01 */}
+
 				<a
 					href="/websites"
 					className="folder fixed bottom-[-10vh] hover:bottom-[-9vh] transition-all duration-200 left-0 bg-green-200/0 group"

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 @font-face {
 	font-family: "jnae";
 	src: url("/fonts/Jnae-Regular.ttf") format("truetype");
@@ -66,3 +67,5 @@ body:has(.folder:hover) .folder:hover {
 }
 
 /* filter: grayscale(100%); */
+
+/* color: #DFDFDF; */
