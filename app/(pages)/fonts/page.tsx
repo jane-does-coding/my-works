@@ -9,7 +9,7 @@ const FontsPage = () => {
 						{"<-"} See all works.
 					</a>
 				</div>
-				<div className="w-[77.5%] fixed top-[7.5vh] left-[22.5vw] h-fit border-b-4">
+				<div className="w-[77.5vw] fixed top-[7.5vh] left-[22.5vw] h-fit border-b-4">
 					<img
 						src="/imgs/folder-light-yellow.png"
 						className="w-[50vw] absolute top-0 left-0"
