@@ -2,23 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
 	return (
-		<div className="h-screen w-full ">
+		<div className="h-screen max-h-screen w-full">
 			<div className="flex flex-col h-screen w-full pt-[1vh]">
-				<div className="flex px-[2vw] w-full items-center justify-between">
-					<a href="/" className="fusskia text-[2.75vh]">
-						Home
-					</a>
-					<a href="/" className="fusskia text-[2.75vh]">
-						Works
-					</a>
-					<a href="/" className="fusskia text-[2.75vh]">
-						About
-					</a>
-					<a href="/" className="fusskia text-[2.75vh]">
-						Contact
-					</a>
-				</div>
-
 				<div className="flex px-[2vw] w-full items-center justify-between mt-[2vh]">
 					<h1 className="text-[8vh] monas w-1/2">Works</h1>
 					<h1 className="text-[8vh] monas w-1/2 opacity-25">Archieve</h1>
@@ -26,7 +11,7 @@ export default function Home() {
 
 				{/* Folder 01 */}
 				<a
-					href="/"
+					href="/websites"
 					className="folder fixed bottom-[-10vh] hover:bottom-[-9vh] transition-all duration-200 left-0 bg-green-200/0 group"
 				>
 					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
@@ -42,7 +27,7 @@ export default function Home() {
 						alt=""
 					/>
 
-					<div className="absolute transition-all duration-300 top-[8vh] group-hover:top-[-13vh] -rotate-8 left-[6vw] bg-white rounded-[0.25vh] border border-dashed w-[15vw] h-[25vh]">
+					<div className="absolute transition-all duration-300 top-[8vh] group-hover:top-[-13vh] -rotate-8 left-[5vw] bg-white rounded-[0.25vh] border border-dashed w-[16vw] h-[23vh]">
 						<img
 							src="/imgs/paint.png"
 							className="object-cover w-full h-full drop-shadow-2xl drop-shadow-neutral-800/30 "
@@ -67,7 +52,7 @@ export default function Home() {
 
 				{/* Folder 02 */}
 				<a
-					href="/"
+					href="/hackathons"
 					className="folder fixed bottom-[-10vh] hover:bottom-[-9vh] transition-all duration-200 right-0 bg-green-200/0 group"
 				>
 					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
@@ -108,7 +93,7 @@ export default function Home() {
 
 				{/* Folder 03 */}
 				<a
-					href="/"
+					href="/graphic"
 					className="folder fixed bottom-[-25vh] hover:bottom-[-24vh] transition-all duration-200 left-0 bg-green-200/0 group"
 				>
 					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
@@ -131,7 +116,7 @@ export default function Home() {
 
 				{/* Folder 04 */}
 				<a
-					href="/"
+					href="/events"
 					className="folder fixed bottom-[-25vh] hover:bottom-[-24vh] transition-all duration-200 right-0 bg-green-200/0 group"
 				>
 					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
@@ -172,7 +157,7 @@ export default function Home() {
 
 				{/* Folder 05 */}
 				<a
-					href="/"
+					href="/fonts"
 					className="folder fixed bottom-[-40vh] hover:bottom-[-39vh] transition-all duration-200 left-0 bg-green-200/0 group"
 				>
 					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
@@ -188,13 +173,25 @@ export default function Home() {
 						alt=""
 					/>
 
-					<div className="absolute transition-all duration-300 top-[7vh] group-hover:top-[-13vh] -rotate-8 left-[6vw] bg-white rounded-[0.25vh] border border-dashed w-[20vw] h-[25vh]"></div>
-					<div className="absolute transition-all duration-300 top-[7vh] group-hover:top-[-9vh] rotate-4 left-[24vw] bg-white rounded-[0.25vh] border border-dashed w-[20vw] h-[20vh]"></div>
+					<div className="absolute transition-all duration-300 top-[9vh] group-hover:top-[-15vh] -rotate-8 left-[5vw] bg-white rounded-[0.25vh] border border-dashed w-[23vw] h-[25vh] p-[1.5vh]">
+						<h2 className="jnae text-[10vh] leading-[8vh]">Aa Bb Cc</h2>
+						<p className="jnae text-[5vh] leading-[4vh]">
+							Lorem ipsum dolor sit, amet consecte adipisicing elit. Earum, id.
+						</p>
+					</div>
+					<div className="absolute transition-all duration-300 top-[9vh] group-hover:top-[-9vh] rotate-4 left-[24vw] bg-white rounded-[0.25vh] border border-dashed w-[22vw] h-[20vh] p-[1.5vh]">
+						<h2 className="written-scribble text-[11vh] leading-[8vh]">
+							Aa Bb Cc
+						</h2>
+						<p className="written-scribble text-[5vh] leading-[4vh]">
+							Lorem ipsum dolor sit, amet consecte adipisicing elit. Earum, id.
+						</p>
+					</div>
 				</a>
 
 				{/* Folder 06 */}
 				<a
-					href="/"
+					href="/uiux-design"
 					className="folder fixed bottom-[-40vh] hover:bottom-[-39vh] transition-all duration-200 right-0 bg-green-200/0 group"
 				>
 					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
@@ -210,7 +207,7 @@ export default function Home() {
 						alt=""
 					/>
 
-					<div className="absolute transition-all duration-300 top-[7vh] group-hover:top-[-14vh] -rotate-8 left-[7vw] bg-white rounded-[0.25vh] border border-dashed w-[15vw] h-[25vh]"></div>
+					<div className="absolute transition-all duration-300 top-[7vh] group-hover:top-[-14vh] -rotate-8 left-[6vw] bg-white rounded-[0.25vh] border border-dashed w-[15vw] h-[25vh]"></div>
 					<div className="absolute transition-all duration-300 top-[7vh] group-hover:top-[-10vh] left-[17vw] bg-white rounded-[0.25vh] border border-dashed w-[17vw] h-[20vh]"></div>
 					<div className="absolute transition-all duration-300 top-[7vh] group-hover:top-[-12vh] rotate-9 left-[33vw] bg-white rounded-[0.25vh] border border-dashed w-[13.5vw] h-[25vh]"></div>
 				</a>
