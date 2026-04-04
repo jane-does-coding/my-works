@@ -3,13 +3,13 @@ import React from "react";
 const FontsPage = () => {
 	return (
 		<div>
-			<div className="flex pl-[2vw] pt-[2vh] overflow-x-hidden h-screen overflow-y-hidden w-screen">
-				<div className="w-[22.5%] h-fit fixed top-[7.5vh] left-[2vw]">
+			<div className="flex h-screen overflow-y-hidden overflow-x-hidden w-full max-w-[100vw]">
+				<div className="w-[22.5vw] h-fit fixed top-[7.5vh] left-0 pl-[2vw] bg-blue-300/0">
 					<a href="/" className="fusskia text-[2.5vh]">
 						{"<-"} See all works.
 					</a>
 				</div>
-				<div className="w-[77.5vw] fixed top-[7.5vh] left-[22.5vw] h-fit border-b-4">
+				<div className="w-[77.5vw] fixed top-[7.5vh] left-[22.5vw] h-fit border-b-4 bg-green-400/0">
 					<img
 						src="/imgs/folder-light-yellow.png"
 						className="w-[50vw] absolute top-0 left-0"

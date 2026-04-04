@@ -27,18 +27,18 @@ export default function RootLayout({
 			lang="en"
 			className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
 		>
-			<body className="min-h-full flex flex-col w-[100vw]">
-				<nav className="flex px-[2vw] pt-[1vh] w-full items-center justify-between fixed top-0 left-0">
-					<a href="/" className="fusskia text-[2.5vh]">
+			<body className="flex flex-col w-full">
+				<nav className="flex pt-[1vh] w-full items-center justify-between fixed top-0 left-0">
+					<a href="/" className="fusskia text-[2.5vh] mx-[2vw]">
 						Home
 					</a>
-					<a href="/" className="fusskia text-[2.5vh]">
+					<a href="/" className="fusskia text-[2.5vh] mx-[2vw]">
 						Works
 					</a>
-					<a href="/" className="fusskia text-[2.5vh]">
+					<a href="/" className="fusskia text-[2.5vh] mx-[2vw]">
 						About
 					</a>
-					<a href="/" className="fusskia text-[2.5vh]">
+					<a href="/" className="fusskia text-[2.5vh] mx-[2vw]">
 						Contact
 					</a>
 				</nav>

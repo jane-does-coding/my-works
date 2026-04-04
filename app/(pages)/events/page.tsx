@@ -3,7 +3,7 @@ import React from "react";
 const EventsPage = () => {
 	return (
 		<div>
-			<div className="flex pl-[2vw] pt-[2vh] overflow-x-hidden h-screen overflow-y-hidden w-screen">
+			<div className="flex overflow-x-hidden h-screen overflow-y-hidden w-screen">
 				<div className="w-[22.5%] h-fit fixed top-[7.5vh] left-[2vw]">
 					<a href="/" className="fusskia text-[2.5vh]">
 						{"<-"} See all works.
