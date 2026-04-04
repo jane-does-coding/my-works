@@ -29,16 +29,16 @@ export default function RootLayout({
 		>
 			<body className="min-h-full flex flex-col">
 				<nav className="flex px-[2vw] pt-[1vh] w-full items-center justify-between">
-					<a href="/" className="fusskia text-[2.75vh]">
+					<a href="/" className="fusskia text-[2.5vh]">
 						Home
 					</a>
-					<a href="/" className="fusskia text-[2.75vh]">
+					<a href="/" className="fusskia text-[2.5vh]">
 						Works
 					</a>
-					<a href="/" className="fusskia text-[2.75vh]">
+					<a href="/" className="fusskia text-[2.5vh]">
 						About
 					</a>
-					<a href="/" className="fusskia text-[2.75vh]">
+					<a href="/" className="fusskia text-[2.5vh]">
 						Contact
 					</a>
 				</nav>

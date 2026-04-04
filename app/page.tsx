@@ -14,7 +14,7 @@ export default function Home() {
 					href="/websites"
 					className="folder fixed bottom-[-10vh] hover:bottom-[-9vh] transition-all duration-200 left-0 bg-green-200/0 group"
 				>
-					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
+					<p className="absolute top-[2.5vh] fusskia text-[2vh] left-[1.75vw] z-10">
 						01
 					</p>
 					<h2 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10 fusskia">
@@ -55,7 +55,7 @@ export default function Home() {
 					href="/hackathons"
 					className="folder fixed bottom-[-10vh] hover:bottom-[-9vh] transition-all duration-200 right-0 bg-green-200/0 group"
 				>
-					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
+					<p className="absolute top-[2.5vh] fusskia text-[2vh] left-[1.75vw] z-10">
 						02
 					</p>
 					<h2 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10 fusskia">
@@ -96,7 +96,7 @@ export default function Home() {
 					href="/graphic"
 					className="folder fixed bottom-[-25vh] hover:bottom-[-24vh] transition-all duration-200 left-0 bg-green-200/0 group"
 				>
-					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
+					<p className="absolute top-[2.5vh] fusskia text-[2vh] left-[1.75vw] z-10">
 						03
 					</p>
 					<h2 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10 fusskia">
@@ -119,7 +119,7 @@ export default function Home() {
 					href="/events"
 					className="folder fixed bottom-[-25vh] hover:bottom-[-24vh] transition-all duration-200 right-0 bg-green-200/0 group"
 				>
-					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
+					<p className="absolute top-[2.5vh] fusskia text-[2vh] left-[1.75vw] z-10">
 						04
 					</p>
 					<h2 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10 fusskia">
@@ -160,7 +160,7 @@ export default function Home() {
 					href="/fonts"
 					className="folder fixed bottom-[-40vh] hover:bottom-[-39vh] transition-all duration-200 left-0 bg-green-200/0 group"
 				>
-					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
+					<p className="absolute top-[2.5vh] fusskia text-[2vh] left-[1.75vw] z-10">
 						05
 					</p>
 					<h2 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10 fusskia">
@@ -194,7 +194,7 @@ export default function Home() {
 					href="/uiux-design"
 					className="folder fixed bottom-[-40vh] hover:bottom-[-39vh] transition-all duration-200 right-0 bg-green-200/0 group"
 				>
-					<p className="absolute top-[2.5vh] fusskia text-[3vh] left-[1.75vw] z-10">
+					<p className="absolute top-[2.5vh] fusskia text-[2vh] left-[1.75vw] z-10">
 						06
 					</p>
 					<h2 className="absolute top-[6.5vh] text-[5.5vh] left-[1.75vw] z-10 fusskia">
