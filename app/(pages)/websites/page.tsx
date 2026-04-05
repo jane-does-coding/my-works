@@ -1,5 +1,3 @@
-import React from "react";
-
 const WebsitesPage = () => {
 	return (
 		<div>
@@ -27,7 +25,7 @@ const WebsitesPage = () => {
 						<p className="w-full text-[1.75vh]">Image</p>
 					</div>
 					<div className="flex flex-col z-10 relative border-t-2 border-dashed border-neutral-900/25 min-h-[30vh] max-h-[65vh] overflow-y-auto border-b-2">
-						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-600 flex-shrink-0">
+						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-600 shrink-0">
 							<div className="w-1/2 pl-[2vw] pt-[2vh]">
 								<h2 className="fusskia text-[3vh]">75 Hard</h2>
 								<h2 className=" text-[1.75vh]">April, 2026</h2>
@@ -40,7 +38,7 @@ const WebsitesPage = () => {
 								/>
 							</div>
 						</div>
-						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-600 border-t-2 border-neutral-900/35 border-dashed flex-shrink-0">
+						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-600 border-t-2 border-neutral-900/35 border-dashed shrink-0">
 							<div className="w-1/2 pl-[2vw] pt-[2vh]">
 								<h2 className="fusskia text-[3vh]">Crumbled Paper</h2>
 								<h2 className=" text-[1.75vh]">March, 2026</h2>
@@ -53,7 +51,7 @@ const WebsitesPage = () => {
 								/>
 							</div>
 						</div>
-						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-600 border-t-2 border-neutral-900/35 border-dashed flex-shrink-0">
+						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-600 border-t-2 border-neutral-900/35 border-dashed shrink-0">
 							<div className="w-1/2 pl-[2vw] pt-[2vh]">
 								<h2 className="fusskia text-[3vh]">What the Duck?!</h2>
 								<h2 className=" text-[1.75vh]">December, 2025</h2>

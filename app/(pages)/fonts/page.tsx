@@ -1,5 +1,3 @@
-import React from "react";
-
 const FontsPage = () => {
 	return (
 		<div>
@@ -27,7 +25,7 @@ const FontsPage = () => {
 						<p className="w-full text-[1.75vh]">Font</p>
 					</div>
 					<div className="flex flex-col z-10 relative border-t-2 border-dashed border-neutral-900/25 min-h-[30vh] max-h-[65vh] overflow-y-auto border-b-2">
-						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-600 flex-shrink-0">
+						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-600 shrink-0">
 							<div className="w-full pl-[2vw] pt-[2vh]">
 								<h2 className="fusskia text-[3vh]">Flowy Font</h2>
 								<h2 className=" text-[1.75vh]">April, 2025</h2>
@@ -70,7 +68,7 @@ const FontsPage = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-600 flex-shrink-0 border-dashed">
+						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-600 shrink-0 border-dashed">
 							<div className="w-full pl-[2vw] pt-[2vh]">
 								<h2 className="fusskia text-[3vh]">Written Scribble Font</h2>
 								<h2 className=" text-[1.75vh]">April, 2025</h2>

@@ -1,5 +1,3 @@
-import React from "react";
-
 const EventsPage = () => {
 	return (
 		<div>
@@ -19,7 +17,7 @@ const EventsPage = () => {
 					<p className="relative fusskia text-[2vh] left-[1.75vw] z-10 mt-[3vh] w-fit text-white">
 						04
 					</p>
-					<h2 className="text-white relative text-[7vh] left-[1.75vw] z-10 fusskia mt-[1vh] text-white">
+					<h2 className="relative text-[7vh] left-[1.75vw] z-10 fusskia mt-[1vh] text-white">
 						Events Organized
 					</h2>
 					<div className="flex w-full items-center justify-between z-10 relative px-[2vw] pb-[1vh]">
@@ -27,7 +25,7 @@ const EventsPage = () => {
 						<p className="w-2/5 text-[1.75vh] text-white">Image</p>
 					</div>
 					<div className="flex flex-col z-10 relative border-t-2 border-dashed border-neutral-200/35 min-h-[30vh] max-h-[65vh] overflow-y-auto border-b-2">
-						<div className="flex h-[25vh] overflow-hidden transition-all ease-in-out hover:h-[45vh] duration-600 flex-shrink-0">
+						<div className="flex h-[25vh] overflow-hidden transition-all ease-in-out hover:h-[45vh] duration-600 shrink-0">
 							<div className="w-3/5 pl-[2vw] pt-[2vh]">
 								<h2 className="text-white fusskia text-[3vh]">Campfire Utah</h2>
 								<h2 className="text-white  text-[1.75vh]">Februrary, 2026</h2>
