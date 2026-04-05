@@ -141,7 +141,7 @@ const AboutPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="w-[40vw] min-h-[20vh] bg-[#ffe647] mr-auto rounded-[1vh] absolute transition-all ease-in-out hover:mt-[0] mt-[2vh] duration-300 top-[30vh] left-0">
+				<div className="w-[45vw] min-h-[20vh] bg-[#ffe647] mr-auto rounded-[1vh] absolute transition-all ease-in-out hover:mt-[0] mt-[2vh] duration-300 top-[30vh] left-0">
 					{/* <div className="h-[3.5vh] border-b border-dashed border-neutral-600/60 flex items-center justify-start w-full relative">
 						<div className="w-[2.1%] h-full border-r border-dashed border-neutral-600/60"></div>
 						<div className="w-[29%] h-full border-r border-dashed border-neutral-600/60"></div>
@@ -174,11 +174,17 @@ const AboutPage = () => {
 							<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
 								<h2 className="text-[4vh] fusskia pl-[0vw] py-[0.5vh]">03</h2>
 								<h2 className="text-[4vh] fusskia pl-[1vw] py-[0.5vh]">
-									Graphic Design
+									Branding
 								</h2>
 							</div>
 							<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
 								<h2 className="text-[4vh] fusskia pl-[0vw] py-[0.5vh]">04</h2>
+								<h2 className="text-[4vh] fusskia pl-[1vw] py-[0.5vh]">
+									Graphic Design
+								</h2>
+							</div>
+							<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
+								<h2 className="text-[4vh] fusskia pl-[0vw] py-[0.5vh]">05</h2>
 								<h2 className="text-[4vh] fusskia pl-[1vw] py-[0.5vh]">
 									Event Organizing
 								</h2>
@@ -260,14 +266,27 @@ const AboutPage = () => {
 								Languages
 							</h2>
 							<div className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw]">
-								<p className="w-1/3 text-[1.5vh] py-[1.25vh] border-r border-dashed border-neutral-600/60">
+								<p className="w-1/2 text-[1.5vh] py-[1.25vh] border-r border-dashed border-neutral-600/60">
 									Russian
 								</p>
-								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw] border-r border-dashed border-neutral-600/60">
+								<p className="w-1/2 text-[1.5vh] py-[1.25vh] pl-[1vw]">
+									Native/Fluent
+								</p>
+							</div>
+							<div className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw]">
+								<p className="w-1/2 text-[1.5vh] py-[1.25vh] border-r border-dashed border-neutral-600/60">
 									Ukrainian
 								</p>
-								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw]">
+								<p className="w-1/2 text-[1.5vh] py-[1.25vh] pl-[1vw] ">
+									Native/Fluent
+								</p>
+							</div>
+							<div className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw]">
+								<p className="w-1/2 text-[1.5vh] py-[1.25vh] border-r border-dashed border-neutral-600/60">
 									English
+								</p>
+								<p className="w-1/2 text-[1.5vh] py-[1.25vh] pl-[1vw] ">
+									Native/Fluent
 								</p>
 							</div>
 						</div>
@@ -276,6 +295,84 @@ const AboutPage = () => {
 						<div className="w-[100%] flex items-center justify-between px-[0.5vw]">
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
 							<p className="text-[1.15vh] font-medium uppercase">Experiences</p>
+							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
+						</div>
+					</div>
+				</div>
+				<div className="w-[70vw] min-h-[20vh] bg-white mr-auto rounded-[1vh] absolute transition-all ease-in-out hover:mt-[0] mt-[2vh] duration-300 top-[42.5vh] left-0">
+					<div className="flex w-[96%] h-[3.25vh] mx-auto border-x border-b border-dashed border-neutral-500/50 relative">
+						<div className="w-[100%] flex items-center justify-between px-[0.5vw]">
+							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
+							<p className="text-[1.15vh] font-medium uppercase">Profile</p>
+							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
+						</div>
+					</div>
+					<div className="flex w-[96%] mx-auto border-x border-dashed border-neutral-600/60">
+						<div className="w-[100%] border-l border-dashed border-neutral-600/60">
+							<div className="flex">
+								<div className="w-[35%] p-[1.5vh]">
+									<h1 className="monas text-[5vh]">Yevheniia Simaka</h1>
+									<img
+										src="/imgs/me3.png"
+										className="w-full object-cover mt-[4vh]"
+										alt=""
+									/>
+								</div>
+								<div className="w-[65%] p-[1.5vh]">
+									<p className="text-[2.5vh] font-extralight leading-[4vh] mt-[1vh]">
+										Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+										Dolore aperiam in, minus odio ducimus blanditiis vel amet
+										magni doloremque neque iusto tempora eligendi illo velit.
+										Quaerat mollitia soluta illum architecto!
+									</p>
+									<p className="text-[2.5vh] font-extralight leading-[4vh] mt-[3vh]">
+										Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+										Dolore aperiam in, minus odio ducimus blanditiis vel amet
+										magni doloremque neque iusto tempora eligendi illo velit.
+										Quaerat mollitia soluta illum architecto!
+									</p>
+								</div>
+							</div>
+							<div className="flex flex-col">
+								<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
+									<h2 className="w-[35%] text-[4vh] fusskia py-[0.5vh]">
+										Email
+									</h2>
+									<p className="w-[60%] text-[2.5vh] font-extralight fusskia py-[0.5vh]">
+										yevheniiasimaka@gmail.com
+									</p>
+								</div>
+								<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
+									<h2 className="w-[35%] text-[4vh] fusskia py-[0.5vh]">
+										Instagram
+									</h2>
+									<p className="w-[60%] text-[2.5vh] font-extralight fusskia py-[0.5vh]">
+										@i_am_jane_2008
+									</p>
+								</div>
+								<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
+									<h2 className="w-[35%] text-[4vh] fusskia py-[0.5vh]">
+										Linkedin
+									</h2>
+									<p className="w-[60%] text-[2.5vh] font-extralight fusskia py-[0.5vh]">
+										linkedin.com/in/yevheniia-simaka/
+									</p>
+								</div>
+								<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
+									<h2 className="w-[35%] text-[4vh] fusskia py-[0.5vh]">
+										Resume
+									</h2>
+									<p className="w-[60%] text-[2.5vh] font-extralight fusskia py-[0.5vh]">
+										Download Here
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="flex w-[96%] h-[3.25vh] mx-auto border-x border-t border-dashed border-neutral-500/50 relative">
+						<div className="w-[100%] flex items-center justify-between px-[0.5vw]">
+							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
+							<p className="text-[1.15vh] font-medium uppercase">Profile</p>
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
 						</div>
 					</div>
