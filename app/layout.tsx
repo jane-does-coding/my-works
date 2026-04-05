@@ -28,7 +28,7 @@ export default function RootLayout({
 			className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
 		>
 			<body className="flex flex-col w-full">
-				<nav className="flex pt-[1vh] w-full items-center justify-between fixed top-0 left-0">
+				<nav className="flex pt-[1vh] w-full items-center justify-between fixed top-0 left-0 z-99 bg-white">
 					<a href="/" className="fusskia text-[2.5vh] mx-[2vw]">
 						Home
 					</a>
