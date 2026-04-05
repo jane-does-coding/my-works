@@ -3,7 +3,7 @@ import React from "react";
 const FeaturedWorks = () => {
 	return (
 		<div className="w-[100vw] h-screen overflow-x-hidden relative overflow-y-scroll">
-			<div className="bg-blue-400/0 z-999 relative h-[95vh] top-[5vh]"></div>
+			<div className="bg-blue-400/0 z-80 relative h-[95vh] top-[5vh]"></div>
 			<div className="fixed top-[5vh] left-0 z-10">
 				<img
 					src="/imgs/folder-light.png"
@@ -62,7 +62,7 @@ const FeaturedWorks = () => {
 					</div>
 				</div>
 			</div>
-			<div className="absolute top-[95vh] left-0 z-99">
+			<div className="absolute top-[95vh] left-0 z-80">
 				<img
 					src="/imgs/folder-light-yellow.png"
 					className="w-[45vw] h-[80vh] ml-[25vw]"
@@ -127,9 +127,12 @@ const FeaturedWorks = () => {
 					alt=""
 				/>
 				<div className="w-[100vw] h-[88vh] bg-[#1d3c70] top-[7vh] left-0 absolute z-10">
-					<h2 className="absolute text-[2.5vh] uppercase left-[8vw] text-white z-10 fusskia top-[-4vh] ml-[25vw]">
+					<a
+						href="/"
+						className="absolute text-[2.5vh] uppercase left-[8vw] text-white z-10 fusskia top-[-4vh] ml-[25vw]"
+					>
 						See all Work
-					</h2>
+					</a>
 				</div>
 			</div>
 		</div>
