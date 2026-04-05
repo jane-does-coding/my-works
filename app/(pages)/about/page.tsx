@@ -1,15 +1,19 @@
+"use client";
+import { useState } from "react";
+
 const AboutPage = () => {
+	const [openedSlide, setOpenSlide]: any = useState("profile"); // experiences, skills, profile
+
 	return (
 		<div>
-			<div className="flex flex-col items-center justify-between mt-[7vh] pb-[5vh]">
+			<div className="flex flex-col items-center justify-between mt-[7vh] pb-[15vh] max-w-[100vw] overflow-hidden relative">
 				<h1 className="text-[8vh] monas w-1/2 mr-auto ml-[2vw]">About me</h1>
-				<div className="w-[97.5vw] min-h-[20vh] bg-[#DFDFDF] mr-auto rounded-[1vh] relative transition-all ease-in-out hover:mt-[0] mt-[2vh] duration-300">
+				<div
+					onClick={() => setOpenSlide("experiences")}
+					className="w-[97.5vw] min-h-[20vh] bg-[#DFDFDF] mr-auto rounded-[0.75vh] relative transition-all ease-in-out hover:mt-[0] mt-[2vh] duration-300"
+				>
 					<div className="absolute bg-white w-[1.25vh] h-[1.25vh] top-[1vh] left-[1vh] rounded-full"></div>
-					{/* <div className="h-[3.5vh] border-b border-dashed border-neutral-600/60 flex items-center justify-start w-full relative">
-						<div className="w-[2.1%] h-full border-r border-dashed border-neutral-600/60"></div>
-						<div className="w-[29%] h-full border-r border-dashed border-neutral-600/60"></div>
-						<div className="w-[2.05%] h-full border-l border-dashed border-neutral-600/60 ml-auto"></div>
-					</div> */}
+
 					<div className="flex w-[96%] h-[3.25vh] mx-auto border-x border-b border-dashed border-neutral-600/60 relative">
 						<div className="w-[30.06%] h-full border-r border-dashed border-neutral-600/60 flex items-center justify-between px-[0.5vw]">
 							<p className="text-[1.15vh] font-medium uppercase">About</p>
@@ -141,21 +145,23 @@ const AboutPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="w-[45vw] min-h-[20vh] bg-[#ffe647] mr-auto rounded-[1vh] absolute transition-all ease-in-out hover:mt-[0] mt-[2vh] duration-300 top-[30vh] left-0">
-					{/* <div className="h-[3.5vh] border-b border-dashed border-neutral-600/60 flex items-center justify-start w-full relative">
-						<div className="w-[2.1%] h-full border-r border-dashed border-neutral-600/60"></div>
-						<div className="w-[29%] h-full border-r border-dashed border-neutral-600/60"></div>
-						<div className="w-[2.05%] h-full border-l border-dashed border-neutral-600/60 ml-auto"></div>
-					</div> */}
-					<div className="flex w-[96%] h-[3.25vh] mx-auto border-x border-b border-dashed border-neutral-500/50 relative">
+				<div
+					onClick={() => setOpenSlide("skills")}
+					className={`w-[45vw] min-h-[20vh] bg-[#ffe647] mr-auto rounded-[0.75vh] absolute transition-all ease-in-out hover:mt-[0] mt-[2vh] duration-300 top-[30vh] ${
+						openedSlide === "skills" || openedSlide === "profile"
+							? "left-0"
+							: "left-[95vw]"
+					}`}
+				>
+					<div className="flex w-[92%] h-[3.25vh] mx-auto border-x border-b border-dashed border-neutral-600/60 relative">
 						<div className="w-[100%] flex items-center justify-between px-[0.5vw]">
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
 							<p className="text-[1.15vh] font-medium uppercase">Skillsets</p>
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
 						</div>
 					</div>
-					<div className="flex w-[96%] mx-auto border-x border-dashed border-neutral-600/60">
-						<div className="w-[100%] border-l border-dashed border-neutral-600/60">
+					<div className="flex w-[92%] mx-auto border-x border-dashed border-neutral-600/60">
+						<div className="w-[100%] border-l-none border-dashed border-neutral-600/60">
 							<h2 className="text-[5vh] fusskia pl-[1vw] py-[0.5vh]">
 								Skillsets
 							</h2>
@@ -291,7 +297,7 @@ const AboutPage = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex w-[96%] h-[3.25vh] mx-auto border-x border-t border-dashed border-neutral-600/60 relative">
+					<div className="flex w-[92%] h-[3.25vh] mx-auto border-x border-t border-dashed border-neutral-600/60 relative">
 						<div className="w-[100%] flex items-center justify-between px-[0.5vw]">
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
 							<p className="text-[1.15vh] font-medium uppercase">Experiences</p>
@@ -299,16 +305,21 @@ const AboutPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="w-[70vw] min-h-[20vh] bg-white mr-auto rounded-[1vh] absolute transition-all ease-in-out hover:mt-[0] mt-[2vh] duration-300 top-[42.5vh] left-0">
-					<div className="flex w-[96%] h-[3.25vh] mx-auto border-x border-b border-dashed border-neutral-500/50 relative">
+				<div
+					onClick={() => setOpenSlide("profile")}
+					className={`w-[70vw] min-h-[20vh] bg-white mr-auto rounded-[0.75vh] absolute transition-all ease-in-out hover:mt-[0] mt-[2vh] duration-300 top-[42.5vh] ${
+						openedSlide === "profile" ? "left-0" : "left-[95vw]"
+					}`}
+				>
+					<div className="flex w-[95%] h-[3.25vh] mx-auto border-x border-b border-dashed border-neutral-600/60 relative">
 						<div className="w-[100%] flex items-center justify-between px-[0.5vw]">
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
 							<p className="text-[1.15vh] font-medium uppercase">Profile</p>
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
 						</div>
 					</div>
-					<div className="flex w-[96%] mx-auto border-x border-dashed border-neutral-600/60">
-						<div className="w-[100%] border-l border-dashed border-neutral-600/60">
+					<div className="flex w-[95%] mx-auto border-x border-dashed border-neutral-600/60">
+						<div className="w-[100%] border-l-none border-dashed border-neutral-600/60">
 							<div className="flex">
 								<div className="w-[35%] p-[1.5vh]">
 									<h1 className="monas text-[5vh]">Yevheniia Simaka</h1>
@@ -369,7 +380,7 @@ const AboutPage = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex w-[96%] h-[3.25vh] mx-auto border-x border-t border-dashed border-neutral-500/50 relative">
+					<div className="flex w-[95%] h-[3.25vh] mx-auto border-x border-t border-dashed border-neutral-600/60 relative">
 						<div className="w-[100%] flex items-center justify-between px-[0.5vw]">
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
 							<p className="text-[1.15vh] font-medium uppercase">Profile</p>

@@ -35,7 +35,7 @@ export default function RootLayout({
 					<a href="/" className="fusskia text-[2.5vh] mx-[2vw]">
 						Works
 					</a>
-					<a href="/" className="fusskia text-[2.5vh] mx-[2vw]">
+					<a href="/about" className="fusskia text-[2.5vh] mx-[2vw]">
 						About
 					</a>
 					<a href="/" className="fusskia text-[2.5vh] mx-[2vw]">
