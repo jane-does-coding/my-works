@@ -2,7 +2,7 @@ import React from "react";
 
 const FeaturedWorks = () => {
 	return (
-		<div className="w-[100vw] h-screen overflow-x-hidden relative overflow-y-scroll">
+		<div className="w-screen h-screen overflow-x-hidden relative overflow-y-scroll">
 			<div className="bg-blue-400/0 z-80 relative h-[95vh] top-[5vh]"></div>
 			<div className="fixed top-[5vh] left-0 z-10">
 				<img
@@ -10,7 +10,7 @@ const FeaturedWorks = () => {
 					className="w-[45vw] h-[80vh]"
 					alt=""
 				/>
-				<div className="w-[100vw] h-[88vh] bg-[#DFDFDF] top-[7vh] left-0 absolute">
+				<div className="w-screen h-[88vh] bg-[#DFDFDF] top-[7vh] left-0 absolute">
 					<h2 className="absolute text-[2.5vh] uppercase left-[1.75vw] z-10 fusskia top-[-4vh]">
 						Featured Work 01
 					</h2>
@@ -68,7 +68,7 @@ const FeaturedWorks = () => {
 					className="w-[45vw] h-[80vh] ml-[25vw]"
 					alt=""
 				/>
-				<div className="w-[100vw] h-[88vh] bg-[#ffe95d] top-[7vh] left-0 absolute z-10">
+				<div className="w-screen h-[88vh] bg-[#ffe95d] top-[7vh] left-0 absolute z-10">
 					<h2 className="absolute text-[2.5vh] uppercase left-[1.75vw] z-10 fusskia top-[-4vh] ml-[25vw]">
 						Featured Work 02
 					</h2>
@@ -126,7 +126,7 @@ const FeaturedWorks = () => {
 					className="w-[45vw] -scale-x-100 h-[80vh] z-0"
 					alt=""
 				/>
-				<div className="w-[100vw] h-[88vh] bg-[#1d3c70] top-[7vh] left-0 absolute z-10">
+				<div className="w-screen h-[88vh] bg-[#1d3c70] top-[7vh] left-0 absolute z-10">
 					<a
 						href="/"
 						className="absolute text-[2.5vh] uppercase left-[8vw] text-white z-10 fusskia top-[-4vh] ml-[25vw]"

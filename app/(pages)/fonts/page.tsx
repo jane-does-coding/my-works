@@ -68,27 +68,6 @@ const FontsPage = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-500 shrink-0 border-dashed">
-							<div className="w-full pl-[2vw] pt-[2vh]">
-								<h2 className="fusskia text-[3vh]">Written Scribble Font</h2>
-								<h2 className=" text-[1.75vh]">April, 2025</h2>
-							</div>
-							<div className="bg-white w-full h-full border-l border-dashed border-neutral-900/25 p-[2vh] py-[1vh]">
-								<h2 className="text-[9vh] leading-[8vh] written-scribble">
-									Aa Bb Cc Dd Ee
-								</h2>
-								<h2 className="text-[9vh] leading-[8vh] written-scribble">
-									Gg Hh Ii Jj Kk
-								</h2>
-								<p className="text-[3.25vh] leading-[3.25vh] written-scribble mt-[1.5vh]">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Aspernatur, praesentium! Laboriosam, error accusantium?
-									Aspernatur quibusdam ipsa dicta, possimus rem officia? Dolore
-									dolores doloribus vitae illum quos excepturi quam suscipit?
-									Sapiente. Lorem ipsum dolor sit amet.
-								</p>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>

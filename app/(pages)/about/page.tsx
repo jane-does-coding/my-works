@@ -6,11 +6,11 @@ const AboutPage = () => {
 
 	return (
 		<div>
-			<div className="flex flex-col items-center justify-between mt-[7vh] pb-[15vh] max-w-[100vw] overflow-hidden relative">
+			<div className="flex flex-col items-center justify-between mt-[7vh] pb-[25vh] max-w-[100vw] overflow-hidden relative">
 				<h1 className="text-[8vh] monas w-1/2 mr-auto ml-[2vw]">About me</h1>
 				<div
 					onClick={() => setOpenSlide("experiences")}
-					className="w-[97.5vw] min-h-[20vh] bg-[#DFDFDF] mr-auto rounded-[0.75vh] relative transition-all ease-in-out hover:mt-[0] mt-[2vh] duration-300"
+					className="w-[97.5vw] min-h-[20vh] bg-[#DFDFDF] mr-auto rounded-[0.75vh] relative transition-all ease-in-out hover:mt-0 mt-[2vh] duration-300"
 				>
 					<div className="absolute bg-white w-[1.25vh] h-[1.25vh] top-[1vh] left-[1vh] rounded-full"></div>
 
@@ -147,50 +147,50 @@ const AboutPage = () => {
 				</div>
 				<div
 					onClick={() => setOpenSlide("skills")}
-					className={`w-[45vw] min-h-[20vh] bg-[#ffe647] mr-auto rounded-[0.75vh] absolute transition-all ease-in-out hover:mt-[0] mt-[2vh] duration-300 top-[30vh] ${
+					className={`w-[45vw] min-h-[20vh] bg-[#ffe647] mr-auto rounded-[0.75vh] absolute transition-all ease-in-out hover:mt-0 mt-[2vh] duration-300 top-[30vh] ${
 						openedSlide === "skills" || openedSlide === "profile"
 							? "left-0"
 							: "left-[95vw]"
 					}`}
 				>
 					<div className="flex w-[92%] h-[3.25vh] mx-auto border-x border-b border-dashed border-neutral-600/60 relative">
-						<div className="w-[100%] flex items-center justify-between px-[0.5vw]">
+						<div className="w-full flex items-center justify-between px-[0.5vw]">
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
 							<p className="text-[1.15vh] font-medium uppercase">Skillsets</p>
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
 						</div>
 					</div>
 					<div className="flex w-[92%] mx-auto border-x border-dashed border-neutral-600/60">
-						<div className="w-[100%] border-l-none border-dashed border-neutral-600/60">
+						<div className="w-full border-l-none border-dashed border-neutral-600/60">
 							<h2 className="text-[5vh] fusskia pl-[1vw] py-[0.5vh]">
 								Skillsets
 							</h2>
 							<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
-								<h2 className="text-[4vh] fusskia pl-[0vw] py-[0.5vh]">01</h2>
+								<h2 className="text-[4vh] fusskia pl-0 py-[0.5vh]">01</h2>
 								<h2 className="text-[4vh] fusskia pl-[1vw] py-[0.5vh]">
 									Web Development
 								</h2>
 							</div>
 							<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
-								<h2 className="text-[4vh] fusskia pl-[0vw] py-[0.5vh]">02</h2>
+								<h2 className="text-[4vh] fusskia pl-0 py-[0.5vh]">02</h2>
 								<h2 className="text-[4vh] fusskia pl-[1vw] py-[0.5vh]">
 									Web Design
 								</h2>
 							</div>
 							<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
-								<h2 className="text-[4vh] fusskia pl-[0vw] py-[0.5vh]">03</h2>
+								<h2 className="text-[4vh] fusskia pl-0 py-[0.5vh]">03</h2>
 								<h2 className="text-[4vh] fusskia pl-[1vw] py-[0.5vh]">
 									Branding
 								</h2>
 							</div>
 							<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
-								<h2 className="text-[4vh] fusskia pl-[0vw] py-[0.5vh]">04</h2>
+								<h2 className="text-[4vh] fusskia pl-0 py-[0.5vh]">04</h2>
 								<h2 className="text-[4vh] fusskia pl-[1vw] py-[0.5vh]">
 									Graphic Design
 								</h2>
 							</div>
 							<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
-								<h2 className="text-[4vh] fusskia pl-[0vw] py-[0.5vh]">05</h2>
+								<h2 className="text-[4vh] fusskia pl-0 py-[0.5vh]">05</h2>
 								<h2 className="text-[4vh] fusskia pl-[1vw] py-[0.5vh]">
 									Event Organizing
 								</h2>
@@ -298,7 +298,7 @@ const AboutPage = () => {
 						</div>
 					</div>
 					<div className="flex w-[92%] h-[3.25vh] mx-auto border-x border-t border-dashed border-neutral-600/60 relative">
-						<div className="w-[100%] flex items-center justify-between px-[0.5vw]">
+						<div className="w-full flex items-center justify-between px-[0.5vw]">
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
 							<p className="text-[1.15vh] font-medium uppercase">Experiences</p>
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
@@ -307,19 +307,19 @@ const AboutPage = () => {
 				</div>
 				<div
 					onClick={() => setOpenSlide("profile")}
-					className={`w-[70vw] min-h-[20vh] bg-white mr-auto rounded-[0.75vh] absolute transition-all ease-in-out hover:mt-[0] mt-[2vh] duration-300 top-[42.5vh] ${
+					className={`w-[70vw] min-h-[20vh] bg-white mr-auto rounded-[0.75vh] absolute transition-all ease-in-out hover:mt-0 mt-[2vh] duration-300 top-[42.5vh] ${
 						openedSlide === "profile" ? "left-0" : "left-[95vw]"
 					}`}
 				>
 					<div className="flex w-[95%] h-[3.25vh] mx-auto border-x border-b border-dashed border-neutral-600/60 relative">
-						<div className="w-[100%] flex items-center justify-between px-[0.5vw]">
+						<div className="w-full flex items-center justify-between px-[0.5vw]">
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
 							<p className="text-[1.15vh] font-medium uppercase">Profile</p>
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
 						</div>
 					</div>
 					<div className="flex w-[95%] mx-auto border-x border-dashed border-neutral-600/60">
-						<div className="w-[100%] border-l-none border-dashed border-neutral-600/60">
+						<div className="w-full border-l-none border-dashed border-neutral-600/60">
 							<div className="flex">
 								<div className="w-[35%] p-[1.5vh]">
 									<h1 className="monas text-[5vh]">Yevheniia Simaka</h1>
@@ -330,17 +330,19 @@ const AboutPage = () => {
 									/>
 								</div>
 								<div className="w-[65%] p-[1.5vh]">
-									<p className="text-[2.5vh] font-extralight leading-[4vh] mt-[1vh]">
-										Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-										Dolore aperiam in, minus odio ducimus blanditiis vel amet
-										magni doloremque neque iusto tempora eligendi illo velit.
-										Quaerat mollitia soluta illum architecto!
+									<p className="text-[2.25vh] font-extralight leading-[4vh] mt-[1vh]">
+										Fullstack TypeScript developer who has won 14+ international
+										hackathons online and in-person. Single-handedly organized a
+										game development hackathon in Utah, from venue outreach and
+										finding sponsors, to day-of event planning and hosting, with
+										25 participants average ages 13-15yo, who made a game for
+										the first time.
 									</p>
-									<p className="text-[2.5vh] font-extralight leading-[4vh] mt-[3vh]">
-										Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-										Dolore aperiam in, minus odio ducimus blanditiis vel amet
-										magni doloremque neque iusto tempora eligendi illo velit.
-										Quaerat mollitia soluta illum architecto!
+									<p className="text-[2.25vh] font-extralight leading-[4vh] mt-[3vh]">
+										Completed 3 internships working with Harvard and Cornell
+										graduates on early-stage startups from idea and design
+										through development and deployment. Passionate about
+										building with people who love programming.
 									</p>
 								</div>
 							</div>
@@ -381,7 +383,7 @@ const AboutPage = () => {
 						</div>
 					</div>
 					<div className="flex w-[95%] h-[3.25vh] mx-auto border-x border-t border-dashed border-neutral-600/60 relative">
-						<div className="w-[100%] flex items-center justify-between px-[0.5vw]">
+						<div className="w-full flex items-center justify-between px-[0.5vw]">
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
 							<p className="text-[1.15vh] font-medium uppercase">Profile</p>
 							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
