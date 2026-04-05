@@ -25,10 +25,16 @@ const FontsPage = () => {
 						<p className="w-full text-[1.75vh]">Font</p>
 					</div>
 					<div className="flex flex-col z-10 relative border-t border-dashed border-neutral-900/25 min-h-[30vh] max-h-[65vh] overflow-y-auto border-b">
-						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-500 shrink-0">
-							<div className="w-full pl-[2vw] pt-[2vh]">
+						<a
+							href="/fonts/flowy"
+							className="flex h-[18vh] cursor-pointer overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-500 shrink-0"
+						>
+							<div className="w-full pl-[2vw] pt-[2vh] relative">
 								<h2 className="fusskia text-[3vh]">Flowy Font</h2>
 								<h2 className=" text-[1.75vh]">April, 2025</h2>
+								<p className=" text-[1.75vh] absolute top-[2vh] right-[2vw]">
+									Check it out {"->"}
+								</p>
 							</div>
 							<div className="bg-white w-full h-full border-l border-dashed border-neutral-900/25 p-[2vh] py-[1vh]">
 								<h2 className="text-[9vh] leading-[8vh] jnae">
@@ -45,12 +51,18 @@ const FontsPage = () => {
 									Sapiente. Lorem ipsum dolor sit amet.
 								</p>
 							</div>
-						</div>
+						</a>
 
-						<div className="flex h-[18vh] overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-500 shrink-0 border-y border-neutral-900/25 border-dashed">
-							<div className="w-full pl-[2vw] pt-[2vh]">
+						<a
+							href="/fonts/written-scribble"
+							className="flex h-[18vh] cursor-pointer overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-500 shrink-0 border-y border-neutral-900/25 border-dashed"
+						>
+							<div className="w-full pl-[2vw] pt-[2vh] relative">
 								<h2 className="fusskia text-[3vh]">Written Scribble Font</h2>
 								<h2 className=" text-[1.75vh]">April, 2025</h2>
+								<p className=" text-[1.75vh] absolute top-[2vh] right-[2vw]">
+									Check it out {"->"}
+								</p>
 							</div>
 							<div className="bg-white w-full h-full border-l border-dashed border-neutral-900/25 p-[2vh] py-[1vh]">
 								<h2 className="text-[9vh] leading-[8vh] written-scribble">
@@ -67,7 +79,33 @@ const FontsPage = () => {
 									Sapiente. Lorem ipsum dolor sit amet.
 								</p>
 							</div>
-						</div>
+						</a>
+						<a
+							href="/fonts/washing-machine"
+							className="flex h-[18vh] cursor-pointer overflow-hidden transition-all ease-in-out hover:h-[41vh] duration-500 shrink-0 border-y border-neutral-900/25 border-dashed"
+						>
+							<div className="w-full pl-[2vw] pt-[2vh] relative">
+								<h2 className="fusskia text-[3vh]">Written Scribble Font</h2>
+								<h2 className=" text-[1.75vh]">April, 2025</h2>
+								<p className=" text-[1.75vh] absolute top-[2vh] right-[2vw]">
+									Check it out {"->"}
+								</p>
+							</div>
+							<div className="bg-white w-full h-full border-l border-dashed border-neutral-900/25 p-[2vh] py-[1vh]">
+								<h2 className="text-[7vh] leading-[8vh] washing-machine">
+									Aa Bb Cc Dd Ee
+								</h2>
+								<h2 className="text-[7vh] leading-[8vh] washing-machine">
+									Gg Hh Ii Jj Kk
+								</h2>
+								<p className="text-[2.75vh] leading-[3.5vh] washing-machine mt-[1.5vh]">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Aspernatur, praesentium! Laboriosam, error accusantium?
+									Aspernatur quibusdam ipsa dicta, possimus rem officia? Dolore
+									dolores doloribus vitae illum quos excepturi quam suscipit?
+								</p>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>

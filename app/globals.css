@@ -21,6 +21,16 @@
 }
 
 @font-face {
+	font-family: "WashingMachine";
+	src: url("/fonts/WashingMachine-Regular.ttf") format("truetype");
+	font-style: normal;
+}
+
+.washing-machine {
+	font-family: "WashingMachine", sans-serif;
+}
+
+@font-face {
 	font-family: "Marketing";
 	src: url("/fonts/marketing-disparities-font/Marketing.ttf") format("truetype");
 	font-style: normal;

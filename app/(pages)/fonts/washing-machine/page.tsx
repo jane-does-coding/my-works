@@ -74,7 +74,7 @@ export default function FontTester() {
 				</p>
 
 				<h1 className="relative text-[7vh] pl-[1.75vw] z-10 fusskia mt-[1vh] border-b border-dashed border-neutral-600/60">
-					Flowy Font
+					Washing Machine Font
 				</h1>
 
 				<div className="h-[75vh] overflow-y-scroll overflow-x-hidden">
@@ -83,7 +83,7 @@ export default function FontTester() {
 							value={text}
 							onChange={(e) => setText(e.target.value)}
 							className="w-full border border-dashed border-neutral-600/60 
-						p-[1.5vh] text-[4vh] jnae
+						p-[1.5vh] text-[4vh] washing-machine
 						bg-white outline-none
 						focus:border-black transition-all"
 							placeholder="Type something..."
@@ -92,7 +92,7 @@ export default function FontTester() {
 
 					<div className="relative z-10 px-[2vw] mt-[4vh] border-y border-dashed border-neutral-600/60 py-[5vh]">
 						<p
-							className="jnae leading-tight break-words transition-all"
+							className="washing-machine leading-tight break-words transition-all"
 							style={{ fontSize: `${size}px` }}
 						>
 							{displayText}
@@ -103,7 +103,7 @@ export default function FontTester() {
 						<div className="border border-dashed border-neutral-600/60 p-[2vh] bg-white">
 							<h2 className="fusskia text-[3vh] mb-[2vh]">Alphabet</h2>
 
-							<div className="flex flex-wrap gap-[2vh] text-[7vh] leading-[7vh] jnae">
+							<div className="flex flex-wrap gap-[2vh] text-[7vh] leading-[7vh] washing-machine">
 								{alphabet.map((letter) => (
 									<div key={letter}>
 										{letter.toUpperCase()}
@@ -116,7 +116,7 @@ export default function FontTester() {
 						<div className="border border-dashed border-neutral-600/60 p-[2vh] bg-white">
 							<h2 className="fusskia text-[3vh] mb-[2vh]">Numbers & Symbols</h2>
 
-							<div className="jnae text-[8vh] leading-[8vh]">
+							<div className="washing-machine text-[8vh] leading-[8vh]">
 								<p>0 1 2 3 4 5 6 7 8 9</p>
 
 								<p className="mt-[2vh] text-[8vh]">- + ! ? . , : ; ' "</p>
@@ -128,7 +128,7 @@ export default function FontTester() {
 						<div className="border border-dashed border-neutral-600/60 p-[2vh] bg-white">
 							<h2 className="fusskia text-[3vh] mb-[2vh]">Paragraph</h2>
 
-							<p className="jnae text-[4vh] leading-[4vh]">
+							<p className="washing-machine text-[4vh] leading-[4vh]">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
 								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
 								enim ad minim veniam, quis nostrud exercitation ullamco laboris
