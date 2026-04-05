@@ -141,6 +141,145 @@ const AboutPage = () => {
 						</div>
 					</div>
 				</div>
+				<div className="w-[40vw] min-h-[20vh] bg-[#ffe647] mr-auto rounded-[1vh] absolute transition-all ease-in-out hover:mt-[0] mt-[2vh] duration-300 top-[30vh] left-0">
+					{/* <div className="h-[3.5vh] border-b border-dashed border-neutral-600/60 flex items-center justify-start w-full relative">
+						<div className="w-[2.1%] h-full border-r border-dashed border-neutral-600/60"></div>
+						<div className="w-[29%] h-full border-r border-dashed border-neutral-600/60"></div>
+						<div className="w-[2.05%] h-full border-l border-dashed border-neutral-600/60 ml-auto"></div>
+					</div> */}
+					<div className="flex w-[96%] h-[3.25vh] mx-auto border-x border-b border-dashed border-neutral-500/50 relative">
+						<div className="w-[100%] flex items-center justify-between px-[0.5vw]">
+							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
+							<p className="text-[1.15vh] font-medium uppercase">Skillsets</p>
+							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
+						</div>
+					</div>
+					<div className="flex w-[96%] mx-auto border-x border-dashed border-neutral-600/60">
+						<div className="w-[100%] border-l border-dashed border-neutral-600/60">
+							<h2 className="text-[5vh] fusskia pl-[1vw] py-[0.5vh]">
+								Skillsets
+							</h2>
+							<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
+								<h2 className="text-[4vh] fusskia pl-[0vw] py-[0.5vh]">01</h2>
+								<h2 className="text-[4vh] fusskia pl-[1vw] py-[0.5vh]">
+									Web Development
+								</h2>
+							</div>
+							<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
+								<h2 className="text-[4vh] fusskia pl-[0vw] py-[0.5vh]">02</h2>
+								<h2 className="text-[4vh] fusskia pl-[1vw] py-[0.5vh]">
+									Web Design
+								</h2>
+							</div>
+							<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
+								<h2 className="text-[4vh] fusskia pl-[0vw] py-[0.5vh]">03</h2>
+								<h2 className="text-[4vh] fusskia pl-[1vw] py-[0.5vh]">
+									Graphic Design
+								</h2>
+							</div>
+							<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
+								<h2 className="text-[4vh] fusskia pl-[0vw] py-[0.5vh]">04</h2>
+								<h2 className="text-[4vh] fusskia pl-[1vw] py-[0.5vh]">
+									Event Organizing
+								</h2>
+							</div>
+
+							<h2 className="text-[1.25vh] font-semibold uppercase text-center py-[1.5vh] border-t border-dashed border-neutral-600/60">
+								Web Development
+							</h2>
+							<div className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw]">
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] border-r border-dashed border-neutral-600/60">
+									Typescript
+								</p>
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw] border-r border-dashed border-neutral-600/60">
+									Javascript
+								</p>
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw]">
+									Next.js
+								</p>
+							</div>
+							<div className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw]">
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] border-r border-dashed border-neutral-600/60">
+									React
+								</p>
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw] border-r border-dashed border-neutral-600/60">
+									Tailwind css
+								</p>
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw]">
+									Responsive Design
+								</p>
+							</div>
+							<div className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw]">
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] border-r border-dashed border-neutral-600/60">
+									Svelte
+								</p>
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw] border-r border-dashed border-neutral-600/60">
+									Postman
+								</p>
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw]">
+									Docker
+								</p>
+							</div>
+							<div className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw]">
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] border-r border-dashed border-neutral-600/60">
+									MongoDB
+								</p>
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw] border-r border-dashed border-neutral-600/60">
+									Prisma
+								</p>
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw]">
+									Node.js
+								</p>
+							</div>
+							<h2 className="text-[1.25vh] font-semibold uppercase text-center py-[1.5vh] border-t border-dashed border-neutral-600/60">
+								Web Design
+							</h2>
+							<div className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw]">
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] border-r border-dashed border-neutral-600/60">
+									Mobile-first Design
+								</p>
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw] border-r border-dashed border-neutral-600/60">
+									Figma
+								</p>
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw]">
+									Mockups
+								</p>
+							</div>
+							<div className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw]">
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] border-r border-dashed border-neutral-600/60">
+									UI/UX Design
+								</p>
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw] border-r border-dashed border-neutral-600/60">
+									Landing Pages
+								</p>
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw]">
+									Dashboards
+								</p>
+							</div>
+							<h2 className="text-[1.25vh] font-semibold uppercase text-center py-[1.5vh] border-t border-dashed border-neutral-600/60">
+								Languages
+							</h2>
+							<div className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw]">
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] border-r border-dashed border-neutral-600/60">
+									Russian
+								</p>
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw] border-r border-dashed border-neutral-600/60">
+									Ukrainian
+								</p>
+								<p className="w-1/3 text-[1.5vh] py-[1.25vh] pl-[1vw]">
+									English
+								</p>
+							</div>
+						</div>
+					</div>
+					<div className="flex w-[96%] h-[3.25vh] mx-auto border-x border-t border-dashed border-neutral-600/60 relative">
+						<div className="w-[100%] flex items-center justify-between px-[0.5vw]">
+							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
+							<p className="text-[1.15vh] font-medium uppercase">Experiences</p>
+							<div className="w-[0.75vh] h-[0.75vh] bg-neutral-800"></div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
