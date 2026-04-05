@@ -24,8 +24,8 @@ const EventsPage = () => {
 						<p className="w-3/5 text-[1.75vh] text-white">Title</p>
 						<p className="w-2/5 text-[1.75vh] text-white">Image</p>
 					</div>
-					<div className="flex flex-col z-10 relative border-t-2 border-dashed border-neutral-200/35 min-h-[30vh] max-h-[65vh] overflow-y-auto border-b-2">
-						<div className="flex h-[25vh] overflow-hidden transition-all ease-in-out hover:h-[45vh] duration-600 shrink-0">
+					<div className="flex flex-col z-10 relative border-t border-dashed border-neutral-200/35 min-h-[30vh] max-h-[65vh] overflow-y-auto border-b-2">
+						<div className="flex h-[25vh] overflow-hidden transition-all ease-in-out hover:h-[45vh] duration-500 shrink-0">
 							<div className="w-3/5 pl-[2vw] pt-[2vh]">
 								<h2 className="text-white fusskia text-[3vh]">Campfire Utah</h2>
 								<h2 className="text-white  text-[1.75vh]">Februrary, 2026</h2>
@@ -43,7 +43,7 @@ const EventsPage = () => {
 									amet inventore!
 								</p>
 							</div>
-							<div className="w-2/5 h-full border-l-2 border-dashed border-neutral-200/35 p-0">
+							<div className="w-2/5 h-full border-l border-dashed border-neutral-200/35 p-0">
 								<img
 									src="/imgs/campfire.png"
 									className="w-full h-full object-cover"
@@ -52,7 +52,7 @@ const EventsPage = () => {
 							</div>
 						</div>
 
-						<div className="flex h-[25vh] overflow-hidden transition-all ease-in-out hover:h-[45vh] duration-600 shrink-0 border-t-2 border-neutral-200/35 border-dashed">
+						<div className="flex h-[25vh] overflow-hidden transition-all ease-in-out hover:h-[45vh] duration-500 shrink-0 border-t border-neutral-200/35 border-dashed">
 							<div className="w-3/5 pl-[2vw] pt-[2vh]">
 								<h2 className="text-white fusskia text-[3vh]">Midnight</h2>
 								<h2 className="text-white  text-[1.75vh]">January, 2026</h2>
@@ -70,7 +70,7 @@ const EventsPage = () => {
 									amet inventore!
 								</p>
 							</div>
-							<div className="w-2/5 h-full border-l-2 border-dashed border-neutral-200/35 p-0">
+							<div className="w-2/5 h-full border-l border-dashed border-neutral-200/35 p-0">
 								<img
 									src="/imgs/midnight.png"
 									className="w-full h-full object-cover"

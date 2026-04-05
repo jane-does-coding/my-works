@@ -5,7 +5,7 @@ export default function Home() {
 	return (
 		<div className="h-screen max-h-screen">
 			<div className="flex flex-col h-screen">
-				<div className="flex px-[2vw] items-center justify-between mt-[5vh]">
+				<div className="flex px-[2vw] items-center justify-between mt-[7vh]">
 					<h1 className="text-[8vh] monas w-1/2">Works</h1>
 					<h1 className="text-[8vh] monas w-1/2 opacity-25">Archieve</h1>
 				</div>
