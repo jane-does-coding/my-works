@@ -56,7 +56,7 @@ export default function RootLayout({
 						About
 					</a>
 					<a
-						href="/"
+						href="/contact"
 						className="exo font-light tracking-[-1px] text-[2vh] mx-[2vw]"
 					>
 						Contact
