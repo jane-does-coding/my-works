@@ -3,6 +3,14 @@ import { useState } from "react";
 
 const AboutPage = () => {
 	const [openedSlide, setOpenSlide]: any = useState("profile"); // experiences, skills, profile
+	const [hoveredExperience, setHoveredExperience] = useState("campfire");
+
+	const experienceImages: any = {
+		internship: "/imgs/campfire.png",
+		campfire: "/imgs/campfire2.png",
+		referred: "/imgs/midnight.png",
+		nova: "/imgs/skillsUSA.png",
+	};
 
 	return (
 		<div>
@@ -27,10 +35,25 @@ const AboutPage = () => {
 					</div>
 					<div className="flex w-[96%] mx-auto border-x border-dashed border-neutral-600/60">
 						<div className="w-[30%]">
-							<img
-								src={"/imgs/campfire.png"}
+							<div className="sticky top-[7.5vh] mt-[7.5vh] border-y border-dashed border-neutral-600/60 h-[40vh] w-full overflow-hidden">
+								{Object.entries(experienceImages).map(([key, src]: any) => (
+									<img
+										key={key}
+										src={src}
+										className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-400 ${
+											hoveredExperience === key ? "opacity-100" : "opacity-0"
+										}`}
+									/>
+								))}
+							</div>
+							{/* <img
+								src={experienceImages[hoveredExperience]}
 								className="sticky top-[7.5vh] mt-[7.5vh] border-y border-dashed border-neutral-600/60"
-							/>
+							/> */}
+							{/* <img
+								src={experienceImages[hoveredExperience]}
+								className="sticky top-[7.5vh] mt-[7.5vh] border-y border-dashed border-neutral-600/60"
+							/> */}
 						</div>
 						<div className="w-[70%] border-l border-dashed border-neutral-600/60">
 							<h2 className="text-[5vh] fusskia pl-[1vw] py-[0.5vh]">
@@ -41,7 +64,10 @@ const AboutPage = () => {
 								<p className="w-1/3 text-[1.75vh]">Company</p>
 								<p className="w-1/3 text-[1.75vh]">Position</p>
 							</div>
-							<div className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
+							<div
+								onMouseEnter={() => setHoveredExperience("internship")}
+								className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]"
+							>
 								<p className="w-1/3 text-[1.75vh]">2026/06 - 2027/08</p>
 								<div className="w-1/3 flex flex-col">
 									<p className="text-[1.75vh]">Hack Club</p>
@@ -49,7 +75,10 @@ const AboutPage = () => {
 								</div>
 								<p className="w-1/3 text-[1.75vh]">Gap Year Internship</p>
 							</div>
-							<div className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
+							<div
+								onMouseEnter={() => setHoveredExperience("campfire")}
+								className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]"
+							>
 								<p className="w-1/3 text-[1.75vh]">2025/11 - 2026/02</p>
 								<div className="w-1/3 flex flex-col">
 									<p className="text-[1.75vh]">Hack Club</p>
@@ -57,7 +86,10 @@ const AboutPage = () => {
 								</div>
 								<p className="w-1/3 text-[1.75vh]">Campfire Organizer</p>
 							</div>
-							<div className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
+							<div
+								onMouseEnter={() => setHoveredExperience("referred")}
+								className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]"
+							>
 								<p className="w-1/3 text-[1.75vh]">2025/06 - 2025/08</p>
 								<div className="w-1/3 flex flex-col">
 									<p className="text-[1.75vh]">Referred.fyi</p>
@@ -65,7 +97,10 @@ const AboutPage = () => {
 								</div>
 								<p className="w-1/3 text-[1.75vh]">Developer & Designer</p>
 							</div>
-							<div className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
+							<div
+								onMouseEnter={() => setHoveredExperience("nova")}
+								className="flex w-full items-start justify-center border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]"
+							>
 								<p className="w-1/3 text-[1.75vh]">2024/04 - 2024/10</p>
 								<div className="w-1/3 flex flex-col">
 									<p className="text-[1.75vh]">The Nova Accelerator</p>
@@ -330,7 +365,7 @@ const AboutPage = () => {
 									/>
 								</div>
 								<div className="w-[65%] p-[1.5vh]">
-									<p className="text-[2.25vh] font-extralight leading-[4vh] mt-[1vh]">
+									<p className="text-[2vh] font-extralight leading-[4vh] mt-[1vh]">
 										Fullstack TypeScript developer who has won 14+ international
 										hackathons online and in-person. Single-handedly organized a
 										game development hackathon in Utah, from venue outreach and
@@ -338,7 +373,7 @@ const AboutPage = () => {
 										25 participants average ages 13-15yo, who made a game for
 										the first time.
 									</p>
-									<p className="text-[2.25vh] font-extralight leading-[4vh] mt-[3vh]">
+									<p className="text-[2vh] font-extralight leading-[4vh] mt-[3vh]">
 										Completed 3 internships working with Harvard and Cornell
 										graduates on early-stage startups from idea and design
 										through development and deployment. Passionate about

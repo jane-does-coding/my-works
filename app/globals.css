@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+* {
+	font-family: "Exo", sans-serif;
+}
+
+.exo {
+	font-family: "Exo", sans-serif;
+}
+
 @font-face {
 	font-family: "jnae";
 	src: url("/fonts/Jnae-Regular.ttf") format("truetype");

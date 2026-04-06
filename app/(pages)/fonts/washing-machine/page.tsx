@@ -50,7 +50,7 @@ export default function FontTester() {
 
 						<button
 							onClick={() => setUppercase(!uppercase)}
-							className="border border-dashed border-neutral-600/60 border-neutral-500
+							className="border border-dashed border-neutral-600/60 
 							px-[1vw] py-[0.7vh] text-[1.6vh]
 							hover:bg-black hover:text-white transition-all"
 						>
@@ -92,7 +92,7 @@ export default function FontTester() {
 
 					<div className="relative z-10 px-[2vw] mt-[4vh] border-y border-dashed border-neutral-600/60 py-[5vh]">
 						<p
-							className="washing-machine leading-tight break-words transition-all"
+							className="washing-machine leading-tight wrap-break-words transition-all"
 							style={{ fontSize: `${size}px` }}
 						>
 							{displayText}

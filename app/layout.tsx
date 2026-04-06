@@ -27,18 +27,38 @@ export default function RootLayout({
 			lang="en"
 			className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
 		>
+			<head>
+				<link rel="preconnect" href="https://fonts.googleapis.com" />
+				<link rel="preconnect" href="https://fonts.gstatic.com" />
+				<link
+					href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+					rel="stylesheet"
+				/>
+			</head>
 			<body className="flex flex-col w-full">
 				<nav className="flex pt-[1vh] w-full items-center justify-between fixed top-0 left-0 z-99 bg-white">
-					<a href="/" className="fusskia text-[2.5vh] mx-[2vw]">
+					<a
+						href="/"
+						className="exo font-light tracking-[-1px] text-[2vh] mx-[2vw]"
+					>
 						Home
 					</a>
-					<a href="/featured" className="fusskia text-[2.5vh] mx-[2vw]">
+					<a
+						href="/featured"
+						className="exo font-light tracking-[-1px] text-[2vh] mx-[2vw]"
+					>
 						Works
 					</a>
-					<a href="/about" className="fusskia text-[2.5vh] mx-[2vw]">
+					<a
+						href="/about"
+						className="exo font-light tracking-[-1px] text-[2vh] mx-[2vw]"
+					>
 						About
 					</a>
-					<a href="/" className="fusskia text-[2.5vh] mx-[2vw]">
+					<a
+						href="/"
+						className="exo font-light tracking-[-1px] text-[2vh] mx-[2vw]"
+					>
 						Contact
 					</a>
 				</nav>
