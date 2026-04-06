@@ -64,7 +64,7 @@ const ContactPage = () => {
 									linkedin.com/in/yevheniia-simaka/
 								</p>
 							</div>
-							<div className="flex w-full items-center justify-start border-t border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
+							<div className="flex w-full items-center justify-start border-y border-dashed border-neutral-600/60 px-[1vw] py-[1.5vh]">
 								<h2 className="w-[35%] text-[4vh] fusskia py-[0.5vh]">
 									Resume
 								</h2>
