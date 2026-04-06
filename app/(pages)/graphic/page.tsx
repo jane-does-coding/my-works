@@ -15,7 +15,7 @@ const GraphicDesignPage = () => {
 					/>
 					<div className="bg-[#DFDFDF] rounded-[1vh] rounded-r-none absolute top-[5vh] min-h-[70vh] h-full w-full"></div>
 					<p className="relative fusskia text-[2vh] left-[1.75vw] z-10 mt-[3vh] w-fit text-black">
-						04
+						03
 					</p>
 					<h2 className="relative text-[7vh] left-[1.75vw] z-10 fusskia mt-[1vh] text-black">
 						Graphic Designs
